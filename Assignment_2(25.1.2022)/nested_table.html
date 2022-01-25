@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        tr{
+            height: 50px;
+            border-color: green;
+        }
+        td{
+            width: 120px;
+            border : 1.6px solid black ;
+            border-color: green;
+        }
+        col {
+            width: 20px;
+        }
+    </style>
+    <title>Nested Table</title>
+</head>
+<body style="padding-top:60px ;">
+    <center>
+        <table border="4" bordercolor="green">
+            <tr>
+                <td>Table 1</td>
+                <td> Table 1
+                    <table border="2" bordercolor="blue">
+                        <tr>
+                            <td>Table 2</td>
+                            <td>Table 2</td>
+                        </tr>
+                        <tr>
+                            <td> Table 2 </td>
+                            <td>Table 2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td> Table 1 </td>
+                <td> Table 1. </td>
+            </tr>
+        </table>
+    </center>
+   
+</body>
+</html>
